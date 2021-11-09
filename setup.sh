@@ -28,6 +28,8 @@ sudo apt install curl -y
 #   - https://docs.anaconda.com/anaconda/install/silent-mode/
 curl https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh --output anaconda.sh
 bash anaconda.sh -b
+eval "$(/home/ubuntu/anaconda3/bin/conda shell.bash hook)"
+conda init
 
 # References
 #   - See https://askubuntu.com/questions/519/how-do-i-write-a-shell-script-to-install-a-list-of-applications
