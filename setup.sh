@@ -17,7 +17,7 @@ sudo snap install zoom-client
 
 # Install pip, see https://askubuntu.com/questions/1301141/trying-to-install-python3-pip-which-has-no-installation-candidate
 sudo add-apt-repository universe
-sudo apt install python3-pip - y
+sudo apt install python3-pip -y
 
 # Install Git
 sudo apt install git -y
