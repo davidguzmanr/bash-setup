@@ -16,8 +16,14 @@ sudo snap install --classic code
 sudo snap install zoom-client
 
 # Install pip, see https://askubuntu.com/questions/1301141/trying-to-install-python3-pip-which-has-no-installation-candidate
-sudo add-apt-repository universe
-sudo apt install python3-pip -y
+# sudo add-apt-repository universe
+# sudo apt install python3-pip -y
+
+# Install Anaconda, see
+#   - https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-20-04
+#   - https://docs.anaconda.com/anaconda/install/silent-mode/
+curl https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh --output anaconda.sh
+bash anaconda.sh -b
 
 # Install Git
 sudo apt install git -y
@@ -26,4 +32,4 @@ sudo apt install git -y
 sudo apt install curl -y
 
 # References
-#  - See https://askubuntu.com/questions/519/how-do-i-write-a-shell-script-to-install-a-list-of-applications
+#   - See https://askubuntu.com/questions/519/how-do-i-write-a-shell-script-to-install-a-list-of-applications
