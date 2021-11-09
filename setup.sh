@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # See https://discourse.ubuntu.com/t/lubuntu-18-04-error-running-sudo-apt-update-sudo-apt-upgrade/4725
 sudo apt clean
