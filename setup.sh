@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # See https://discourse.ubuntu.com/t/lubuntu-18-04-error-running-sudo-apt-update-sudo-apt-upgrade/4725
 sudo apt clean
@@ -14,6 +14,10 @@ sudo snap install --classic code
 
 # Install Zoom, see https://linuxhint.com/install_zoom_ubuntu-2/
 sudo snap install zoom-client
+
+# Install pip, see https://askubuntu.com/questions/1301141/trying-to-install-python3-pip-which-has-no-installation-candidate
+sudo add-apt-repository universe
+sudo apt install python3-pip - y
 
 # Install Git
 sudo apt install git -y
