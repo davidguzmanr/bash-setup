@@ -1,8 +1,8 @@
-# bash-setup
-Bash file to setup all the applications I use in Ubuntu 20.04 at work.
+# shell-setup
+Shell file to install all the applications I use in Ubuntu 20.04 at work.
 
 ## Install applications
-First, for whatever reason, use the correct timezone in **Settings** and change the time.
+First use the correct timezone in **Settings**.
 
 Then give permission to the file and run it 
 
