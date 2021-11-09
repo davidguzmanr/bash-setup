@@ -27,4 +27,3 @@ sudo apt install curl -y
 
 # References
 #  - See https://askubuntu.com/questions/519/how-do-i-write-a-shell-script-to-install-a-list-of-applications
-#  - See https://askubuntu.com/questions/409025/permission-denied-when-running-sh-scripts
