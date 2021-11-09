@@ -7,6 +7,6 @@ First, for whatever reason, use the correct timezone in **Settings** and change 
 Then give permission to the file and run it 
 
 ```
-chmod +x setup.sh
-./setup.sh
+$ chmod +x setup.sh
+$ ./setup.sh
 ```
