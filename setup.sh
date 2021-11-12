@@ -19,10 +19,15 @@ sudo snap install zoom-client
 # sudo add-apt-repository universe
 # sudo apt install python3-pip -y
 
-# Others
+# Utils
 sudo apt install git -y
 sudo apt install curl -y
 sudo apt-get install build-essential
+
+# Install Node.js, see https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04
+curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh
+sudo bash nodesource_setup.sh
+sudo apt install nodejs
 
 # Install Anaconda, see
 #   - https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-20-04
