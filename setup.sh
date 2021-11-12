@@ -22,6 +22,7 @@ sudo snap install zoom-client
 # Others
 sudo apt install git -y
 sudo apt install curl -y
+sudo apt-get install build-essential
 
 # Install Anaconda, see
 #   - https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-20-04
