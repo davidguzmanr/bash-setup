@@ -10,3 +10,7 @@ Then give permission to the file and run it
 chmod +x setup.sh
 ./setup.sh
 ```
+
+## Other references
+- [Install Nvidia Driver on Ubuntu](https://gist.github.com/bitsurgeon/b0f4440984c9e60dcd8fe8bbc346c029)
+- [How To Install Nvidia Drivers On Ubuntu 20.04 / Ubuntu 18.04](https://www.itzgeek.com/post/how-to-install-nvidia-drivers-on-ubuntu-20-04-ubuntu-18-04.html)
