@@ -30,7 +30,6 @@ sudo apt install gnome-tweak-tool
 #   - https://askubuntu.com/questions/384235/using-the-workspaces-independently-from-one-another
 #   - https://www.reddit.com/r/gnome/comments/a8okvj/isolate_workspace_in_switch_application_menu
 gsettings set org.gnome.shell.extensions.dash-to-dock isolate-workspaces true
-gsettings set org.gnome.shell.extensions.dash-to-panel isolate-workspaces true
 gsettings set org.gnome.shell.app-switcher current-workspace-only true
 
 # Install Node.js, see https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04
