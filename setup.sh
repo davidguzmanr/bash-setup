@@ -22,15 +22,17 @@ sudo snap install zoom-client
 # Utils
 sudo apt install git -y
 sudo apt install curl -y
-sudo apt-get install build-essential
+sudo apt-get install build-essential -y
 sudo add-apt-repository universe
-sudo apt install gnome-tweak-tool
+sudo apt install gnome-tweak-tool -y
 
 # To isolate workspaces, see 
 #   - https://askubuntu.com/questions/384235/using-the-workspaces-independently-from-one-another
 #   - https://www.reddit.com/r/gnome/comments/a8okvj/isolate_workspace_in_switch_application_menu
 gsettings set org.gnome.shell.extensions.dash-to-dock isolate-workspaces true
 gsettings set org.gnome.shell.app-switcher current-workspace-only true
+
+# Also, go to "Settings" -> "Keyboard Shortcuts" and change the "Switch applications" shortcut.
 
 # Install Node.js, see https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04
 curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh
