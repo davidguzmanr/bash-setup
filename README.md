@@ -14,3 +14,4 @@ chmod +x setup.sh
 ## Other references
 - [Install Nvidia Driver on Ubuntu](https://gist.github.com/bitsurgeon/b0f4440984c9e60dcd8fe8bbc346c029)
 - [How To Install Nvidia Drivers On Ubuntu 20.04 / Ubuntu 18.04](https://www.itzgeek.com/post/how-to-install-nvidia-drivers-on-ubuntu-20-04-ubuntu-18-04.html)
+- [Battery drain on laptop while suspended](https://www.reddit.com/r/Ubuntu/comments/k24okb/battery_drain_on_laptop_while_suspended/)
